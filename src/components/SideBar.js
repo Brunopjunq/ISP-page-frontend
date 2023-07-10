@@ -13,7 +13,7 @@ export default function SideBar() {
                 <p onClick={() => navigate('/Estatistica')}>Estatísticas de Segurança</p>
             </InfoBox>
             <InfoBox>
-                <p>Divisão Territorial da Base de Segurança</p>
+                <p onClick={() => navigate('/Conteudo')}>Divisão Territorial da Base de Segurança</p>
             </InfoBox>
             <InfoBox>
                 <p onClick={() => navigate('/Notas')}>Notas Metodológicas e Dicionários</p>
@@ -37,10 +37,10 @@ export default function SideBar() {
                 <p onClick={() => navigate('/UPP')}>UPP</p>
             </InfoBox>
             <InfoBox>
-                <p>Armas</p>
+                <p onClick={() => navigate('/Armas')}>Armas</p>
             </InfoBox>
             <InfoBox>
-                <p>Divisão Territorial da Base de Segurança</p>
+                <p onClick={() => navigate('/Conteudo')}>Divisão Territorial da Base de Segurança</p>
             </InfoBox>
         </SideBarBox>
     )

@@ -7,6 +7,8 @@ import EstSegurancaPage from "./pages/EstSegurancaPage";
 import CrimesPage from "./pages/CrimesPage";
 import UppPage from "./pages/UppPage";
 import EstatisticasPage from "./pages/EstatisticasPage";
+import ArmasPage from "./pages/ArmasPage";
+import DivTerritorialPage from "./pages/DivTerritorialPage";
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Route path="/Crimes" element={<CrimesPage />} />
         <Route path="/UPP" element={<UppPage />} />
         <Route path="/Estatistica" element={<EstatisticasPage />} />
+        <Route path="/Armas" element={<ArmasPage />} />
+        <Route path="/Conteudo" element={<DivTerritorialPage />} />
       </Routes>
     </BrowserRouter>
     </>
