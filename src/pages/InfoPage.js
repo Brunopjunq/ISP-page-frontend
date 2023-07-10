@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import Home from "../assets/iconHome.png.png";
 import SideBar from "../components/SideBar";
 
-export default function PopulationPage() {
+export default function InfoPage() {
     return (
         <Page>
         <Header />
@@ -17,76 +17,52 @@ export default function PopulationPage() {
             <MainContentBox>
                 <SearchBox placeholder="Pesquisar conjunto de dados..." />
                 <TitleContent>
-                    População
+                    Informações Institucionais
                 </TitleContent>
                 <TextContent>
-                    População: série mensal por área de delegacia (desde 2003)
+                    Secretários de Segurança
                 </TextContent>
                 <LinkBox color={'#DFB100'}>
                     CSV
                 </LinkBox>
                 <TextContent>
-                    População: série anual por área de delegacia (2000 a 2021)
+                    Comandantes Gerais e Secretários da Polícia Militar
                 </TextContent>
                 <LinkBox color={'#DFB100'}>
                     CSV
                 </LinkBox>
                 <TextContent>
-                    População: série anual por município (2000 a 2021)
+                    Chefes e Secretários de Polícia Civil
                 </TextContent>
                 <LinkBox color={'#DFB100'}>
                     CSV
                 </LinkBox>
                 <TextContent>
-                    População: residente por UPP (2021)
+                    Comandantes de batalhões de área da Polícia Militar
                 </TextContent>
                 <LinkBox color={'#DFB100'}>
                     CSV
                 </LinkBox>
                 <TextContent>
-                    População: série mensal do estado (desde 2003)
+                    Delegados titulares de delegacias distritais da Polícia Civil
                 </TextContent>
                 <LinkBox color={'#DFB100'}>
                     CSV
                 </LinkBox>
                 <TextContent>
-                    População: série anual do estado (1991 a 2021)
+                    Data de transformação das delegacias de Polícia Civil em Delegacias Legais
                 </TextContent>
                 <LinkBox color={'#DFB100'}>
                     CSV
                 </LinkBox>
                 <TextContent>
-                    População: residente por UPP (2010)
+                UPP: datas de ocupação, instalação e extinção
                 </TextContent>
                 <LinkBox color={'#2DB55D'}>
                     XLS
-                </LinkBox>
-                <TextContent>
-                    População: série anual projetada por UPP (2007 a 2021)
-                </TextContent>
-                <LinkBox color={'#2DB55D'}>
-                    XLS
-                </LinkBox>
-                <TextContent>
-                    Nota metodológica: população
-                </TextContent>
-                <LinkBox color={'#55A1CE'}>
-                    HTML
-                </LinkBox>
-                <TextContent>
-                    Frota de veículos: série mensal do estado (desde 01/2003)
-                </TextContent>
-                <LinkBox color={'#DFB100'}>
-                    CSV
-                </LinkBox>
-                <TextContent>
-                    Frota de veículos: série anual do estado (desde 2001)
-                </TextContent>
-                <LinkBox color={'#DFB100'}>
-                    CSV
                 </LinkBox>
                 <BottomContent>
-                    <p>Você também pode ter acesso a esses dados acessando o site do <a>ISP - Instituto de Segurança Pública.</a></p>
+                <p>Você também pode ter acesso a esses dados acessando o site do <a>ISP - Instituto de Segurança Pública.</a></p>
                 </BottomContent>
             </MainContentBox>
         </ContentBox>
@@ -120,7 +96,7 @@ const TitleBox = styled.div`
 
 const ContentBox = styled.div`
     width: 940px;
-    min-height: 700px;
+    min-height: 500px;
     background-color: white;
     border-radius: 4px;
     margin-left: 490px;
@@ -129,7 +105,7 @@ const ContentBox = styled.div`
 `
 
 const MainContentBox = styled.div`
-    min-height: 700px;
+    min-height: 500px;
     width: 720px;
     box-sizing: border-box;
     padding-left: 25px;

@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom"
 import { styled } from "styled-components"
 
 export default function SideBar() {
+    const navigate = useNavigate();
+
     return(
         <SideBarBox>
             <TitleBox>
@@ -16,10 +19,10 @@ export default function SideBar() {
                 <p>Notas Metodológicas e Dicionários</p>
             </InfoBox>
             <InfoBox>
-                <p>Informações Institucionais</p>
+                <p onClick={() => navigate('/InfInstitucionais')}>Informações Institucionais</p>
             </InfoBox>
             <InfoBox>
-                <p>População</p>
+                <p onClick={() => navigate('/')}>População</p>
             </InfoBox>
             <TitleBox>
                 <p>Divisão por Temas</p>
