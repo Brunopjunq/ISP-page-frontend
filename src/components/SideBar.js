@@ -10,7 +10,7 @@ export default function SideBar() {
                 <p>Divisão por Grupos</p>
             </TitleBox>
             <InfoBox>
-                <p>Estatísticas de Segurança</p>
+                <p onClick={() => navigate('/Estatistica')}>Estatísticas de Segurança</p>
             </InfoBox>
             <InfoBox>
                 <p>Divisão Territorial da Base de Segurança</p>
@@ -34,7 +34,7 @@ export default function SideBar() {
                 <p onClick={() => navigate('/Crimes')}>Crimes contra a vida</p>
             </InfoBox>
             <InfoBox>
-                <p>UPP</p>
+                <p onClick={() => navigate('/UPP')}>UPP</p>
             </InfoBox>
             <InfoBox>
                 <p>Armas</p>
