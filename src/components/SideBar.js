@@ -68,6 +68,7 @@ const InfoBox = styled.div`
     width: 220px;
     min-height: 35px;
     border-bottom: 1px solid #DDDDDD;
+    cursor: pointer;
 
     p {
         color: #333333;
@@ -77,5 +78,9 @@ const InfoBox = styled.div`
         padding-top: 7px;
         padding-bottom: 7px;
         line-height: 20px;
+    }
+
+    :hover {
+        background-color: #eeeeee;
     }
 `
