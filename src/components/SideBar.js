@@ -16,7 +16,7 @@ export default function SideBar() {
                 <p>Divisão Territorial da Base de Segurança</p>
             </InfoBox>
             <InfoBox>
-                <p>Notas Metodológicas e Dicionários</p>
+                <p onClick={() => navigate('/Notas')}>Notas Metodológicas e Dicionários</p>
             </InfoBox>
             <InfoBox>
                 <p onClick={() => navigate('/InfInstitucionais')}>Informações Institucionais</p>
