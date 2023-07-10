@@ -28,10 +28,10 @@ export default function SideBar() {
                 <p>Divisão por Temas</p>
             </TitleBox>
             <InfoBox>
-                <p>Informações Gerais de Segurança</p>
+                <p onClick={() => navigate('/EstSeguranca')}>Informações Gerais de Segurança</p>
             </InfoBox>
             <InfoBox>
-                <p>Crimes contra a vida</p>
+                <p onClick={() => navigate('/Crimes')}>Crimes contra a vida</p>
             </InfoBox>
             <InfoBox>
                 <p>UPP</p>
